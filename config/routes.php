@@ -10,4 +10,6 @@ return [
     'news/([a-zA-Z]+)/([0-9]+)' => 'news/view/$1/$2',
     'news/([0-9]+)' => 'news/view/$1',
     'news' => 'news/index/',
+    'contact' => 'contact/index/',
+    '' => 'news/index/',
 ];
